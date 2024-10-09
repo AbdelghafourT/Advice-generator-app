@@ -1,0 +1,36 @@
+body {
+    font-family: 'Manrope' /* Fallback to sans-serif */
+}
+.card {
+    font-family: 'Manrope' ;
+    width: 100%; 
+    max-width: 375px;
+    /* position: fixed;  */
+}
+/* button edit section */
+
+.dice-button {
+    background-color: #52ffa8; 
+    border: none;
+    border-radius: 50%; /* Make the button round */
+    padding: 11px; /* Adjust size */
+    /* padding: 5px; */
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease;
+    /* position: absolute; */
+    /* top: 247px;
+    left: 170px; */
+}
+
+.dice-button:hover {
+    transform: scale(1.1); 
+}
+
+.dice-icon {
+    width: 24px; 
+    height: 24px;
+}
+.pdd{
+    padding: 16px 0px 10px 0px;
+}

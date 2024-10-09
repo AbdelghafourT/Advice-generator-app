@@ -1,0 +1,28 @@
+<!-- <div class="advice-container">
+    <p>{{slip.id}}</p>
+    <p>{{ slip.advice }}</p>
+    <button (click)="fetchAdvice()">
+      <img src="assets/icon-dice.svg" alt="Get new advice">
+    </button>
+  </div>
+   -->
+<div class="d-flex justify-content-center align-items-center" style="min-height: 100vh; background-color: #212733;">
+    <div class="card text-center" style="background-color: #323a4a; color: #ccdde8;">
+        <div class="card-body">
+            <h5 class="card-title pdd" style="font-size: 16px; font-weight: 400; color: #52ffa8;">ADVICE #{{slip.id}}</h5>
+            <p class="card-text" style="font-weight: 800; font-size: 28px;">“{{slip.advice}}”</p>
+            <!-- <a href="#" class="btn btn-primary" data-mdb-ripple-init>Button</a> -->
+            <img src="assets/pattern-divider-desktop.svg" style="width:-webkit-fill-available; padding: inherit;">
+            <!-- <button (click)="fetchAdvice()" style="background-color:#323a4a;">
+                <img src="assets/icon-dice.svg" alt="Get new advice">
+            </button>   -->
+            <button (click)="fetchAdvice()" class="dice-button">
+                <img src="assets/icon-dice.svg" alt="Get new advice" class="dice-icon">
+            </button> 
+        </div>  
+    </div>
+</div>
+
+
+
+
